@@ -1,0 +1,6 @@
+@proxy_cameras_HostAddress = http://localhost:5155
+
+GET {{proxy_cameras_HostAddress}}/cameras/ipcam01.jpg
+Accept: application/json
+
+###
